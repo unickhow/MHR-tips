@@ -1,0 +1,58 @@
+[
+	{
+		"key": "#ZL",
+		"img": "https://game.capcom.com/manual/MHRISE/locale/switch/controller/key-BtnL2.png"
+	},
+	{
+		"key": "#ZR",
+		"img": "https://game.capcom.com/manual/MHRISE/locale/switch/controller/key-BtnR2.png"
+	},
+	{
+		"key": "#R1",
+		"img": "https://game.capcom.com/manual/MHRISE/locale/switch/controller/key-BtnR1.png"
+	},
+	{
+		"key": "#RStick",
+		"img": "https://game.capcom.com/manual/MHRISE/locale/switch/controller/key-Rstick.png"
+	},
+	{
+		"key": "#L1",
+		"img": "https://game.capcom.com/manual/MHRISE/locale/switch/controller/key-BtnL1_2.png"
+	},
+	{
+		"key": "#L1Press",
+		"img": "https://game.capcom.com/manual/MHRISE/locale/switch/controller/key-BtnL1_2.png"
+	},
+	{
+		"key": "#LStick",
+		"img": "https://game.capcom.com/manual/MHRISE/locale/switch/controller/key-Lstick_3.png"
+	},
+	{
+		"key": "#Cross",
+		"img": "https://game.capcom.com/manual/MHRISE/locale/switch/controller/key-cross.png"
+	},
+	{
+		"key": "#A",
+		"img": "https://game.capcom.com/manual/MHRISE/locale/switch/controller/key-Btn6.png"
+	},
+	{
+		"key": "#B",
+		"img": "https://game.capcom.com/manual/MHRISE/locale/switch/controller/key-Btn2.png"
+	},
+	{
+		"key": "#X",
+		"img": "https://game.capcom.com/manual/MHRISE/locale/switch/controller/key-Btn8.png"
+	},
+	{
+		"key": "#Y",
+		"img": "https://game.capcom.com/manual/MHRISE/locale/switch/controller/key-Btn4.png"
+	},
+	{
+		"key": "#-",
+		"img": "https://game.capcom.com/manual/MHRISE/locale/switch/controller/key-Btn-C.png"
+	},
+	{
+		"key": "#+",
+		"img": "https://game.capcom.com/manual/MHRISE/locale/switch/controller/key-BtnR2.png"
+	}
+]
