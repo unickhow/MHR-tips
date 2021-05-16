@@ -1,0 +1,23 @@
+@keyframes stage {
+	0% {
+		opacity: 1;
+	}
+	5% {
+		opacity: 0;
+	}
+	95% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes scrollUp {
+	0% {
+		background-position: center 100%;
+	}
+	100% {
+		background-position: center 0%;
+	}
+}
