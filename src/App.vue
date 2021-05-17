@@ -17,8 +17,16 @@
 
   // data
   let tipIndex = ref(0)
-  const newTips = reactive(tips)
-  const currentTip = computed(() => newTips[tipIndex.value])
+  const reactiveTips = reactive(tips)
+  const randomTips = computed(() => {
+    const cloneTips = reactiveTips.map((tip) => ({ ...tip }))
+    for (let i = cloneTips.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1));
+      [cloneTips[i], cloneTips[j]] = [cloneTips[j], cloneTips[i]];
+    }
+    return cloneTips;
+  }).value
+  const currentTip = computed(() => randomTips[tipIndex.value])
   // 
 
   // manipulate tip index
