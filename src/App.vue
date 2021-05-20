@@ -21,10 +21,10 @@
   const randomTips = computed(() => {
     const cloneTips = reactiveTips.map((tip) => ({ ...tip }))
     for (let i = cloneTips.length - 1; i > 0; i--) {
-      let j = Math.floor(Math.random() * (i + 1))
-      [cloneTips[i], cloneTips[j]] = [cloneTips[j], cloneTips[i]]
+      // let j = Math.floor(Math.random() * (i + 1))
+      // [cloneTips[i], cloneTips[j]] = [cloneTips[j], cloneTips[i]]
     }
-    return cloneTips;
+    return cloneTips
   }).value
   const currentTip = computed(() => randomTips[tipIndex.value])
   // 
