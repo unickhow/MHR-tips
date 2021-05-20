@@ -40,10 +40,10 @@
 
 # TODO
 
-- [ ] 找出 Vue3 directive 的寫法，找了一堆文件都只教 global directive
 - [x] 實現 random array 來讓每次進入時的 tips 亂數排序
-- [ ] ~~加入火芽 bgm~~ *怕被吉先不要*
-- [ ] 加入 ← → 按鍵音效
+- [x] 生個 favicon
+- [x] 加入 ← → 按鍵音效
+- [ ] 找出 Vue3 directive 的寫法，找了一堆文件都只教 global directive
 - [ ] 找看看有沒有更適合 bg 的草寫字體
 - [ ] Vue meta SEO
-- [ ] 生個 favicon
+- [ ] ~~加入火芽 bgm~~ *怕被吉先不要*

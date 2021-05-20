@@ -29,15 +29,25 @@
   const currentTip = computed(() => randomTips[tipIndex.value])
   // 
 
+  // click sound
+  const clickSound = new Audio('src/assets/click.wav')
+  const playClickAudio = () => {
+    clickSound.currentTime = 0
+    clickSound.play()
+  }
+  // 
+
   // manipulate tip index
   const nextTip = () => {
     addIndex()
   }
 	const addIndex = () => {
 		tipIndex.value = tipIndex.value < tips.length - 1 ? tipIndex.value + 1 : 0
+    playClickAudio()
   }
 	const substractIndex = () => {
 		tipIndex.value = tipIndex.value < 1 ? tips.length - 1 : tipIndex.value - 1
+    playClickAudio()
   }
   // 
 
