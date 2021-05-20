@@ -17,7 +17,7 @@
 
 ![image](https://user-images.githubusercontent.com/22793771/118518026-5414d580-b76a-11eb-895c-01a8711228d3.png)
 
-```js
+```vue
 // ❌ Wrong way
 <template>
   <p>{{ computedData.name }}</p>
