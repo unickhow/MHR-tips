@@ -30,7 +30,7 @@
   // 
 
   // click sound
-  const clickSound = new Audio('src/assets/click.wav')
+  const clickSound = new Audio('public/click.wav')
   const playClickAudio = () => {
     clickSound.currentTime = 0
     clickSound.play()
