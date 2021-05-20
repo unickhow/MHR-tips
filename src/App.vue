@@ -21,8 +21,8 @@
   const randomTips = computed(() => {
     const cloneTips = reactiveTips.map((tip) => ({ ...tip }))
     for (let i = cloneTips.length - 1; i > 0; i--) {
-      let j = Math.floor(Math.random() * (i + 1));
-      [cloneTips[i], cloneTips[j]] = [cloneTips[j], cloneTips[i]];
+      let j = Math.floor(Math.random() * (i + 1))
+      [cloneTips[i], cloneTips[j]] = [cloneTips[j], cloneTips[i]]
     }
     return cloneTips;
   }).value
@@ -30,7 +30,7 @@
   // 
 
   // click sound
-  const clickSound = new Audio('public/click.wav')
+  const clickSound = new Audio('https://ddl-media.s3.ap-northeast-2.amazonaws.com/click.wav')
   const playClickAudio = () => {
     clickSound.currentTime = 0
     clickSound.play()
