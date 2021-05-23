@@ -3,11 +3,16 @@
 
 $animationDuration: 60s;
 
+// @font-face {
+//   font-family: 'STXingkai';
+//   src: url('../assets/chinese.stxingka.ttf');
+// }
+
 html,
 body {
 	margin: 0;
 	padding: 0;
-	font-family: "cwTeXKai", serif;
+	font-family: 'cwTeXKai', serif;
 	user-select: none;
 }
 

@@ -38,12 +38,12 @@
 ```
 
 
-# TODO
+# Todo
 
 - [x] 實現 random array 來讓每次進入時的 tips 亂數排序
 - [x] 生個 favicon
 - [x] 加入 ← → 按鍵音效
 - [ ] 找出 Vue3 directive 的寫法，找了一堆文件都只教 global directive
-- [ ] 找看看有沒有更適合 bg 的草寫字體
-- [ ] Vue meta SEO
+- [ ] ~~Vue meta SEO~~ *Vue3 + vite 目前未完全支援，單靜態頁面先寫 html 裡就好*
+- [ ] ~~找看看有沒有更適合 bg 的草寫字體~~ *試用了 文書行楷(STXingkai) 但沒支援全字元，只能套一半一半很醜*
 - [ ] ~~加入火芽 bgm~~ *怕被吉先不要*
